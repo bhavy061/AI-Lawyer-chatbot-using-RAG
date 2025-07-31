@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-contrib-python = "*"
+numpy = "*"
+matplotlib = "*"
+tensorflow = "*"
+keras = "*"
+python-socketio = "*"
+flask = "*"
+eventlet = "*"
+streamlit = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-ollama = "*"
+langchain-core = "*"
+faiss-cpu = "*"
+pdfplumber = "*"
+langchain-groq = "*"
+dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
